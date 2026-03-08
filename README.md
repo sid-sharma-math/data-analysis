@@ -1,6 +1,6 @@
 # Data Analysis
 
-A collection of notebooks exploring statistical analysis, and probabilistic reasoning — implemented from mathematical first principles.
+A collection of notebooks exploring statistical analysis, and probabilistic reasoning. These are implemented from mathematical first principles.
 
 Some projects have roots in coursework from my MSc in Computer Simulation in Science (CSIS) at the University of Wuppertal; others are independent explorations of topics I find interesting or practically useful.
 
