@@ -1,6 +1,6 @@
 # data-analysis
 
-Notebooks in applied statistics, Monte Carlo methods, and simulation — developed during an MSc in Computer Simulation in Science (University of Wuppertal).
+Notebooks in applied statistics, Monte Carlo methods, and simulation — covering coursework from master studies as well as independent investigations into areas of personal interest.
 
 ---
 
