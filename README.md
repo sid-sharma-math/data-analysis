@@ -1,6 +1,33 @@
 # data-analysis
 
+<p align="center">
+  <img src="simulation-studies/wealth_emergence_animation.gif" alt="Wealth Distribution Animation" width="600">
+</p>
+
+<p align="center">
+  <em>10,000 agents start with equal wealth. 200 years later: Pareto inequality.<br>No exploitation required — just normal economics.</em>
+</p>
+
+---
+
 Notebooks in applied statistics, Monte Carlo methods, and simulation — covering coursework from master studies as well as independent investigations into areas of personal interest.
+
+---
+
+## statistical-paradoxes
+
+**`simpsons_paradox_baseball.ipynb`**  
+Real MLB data showing how David Justice beat Derek Jeter in batting average every single year (1995-1997), yet Jeter won overall. Animated visualisation of how weighted averages behave differently than simple averages when sample sizes are distributed unequally. The mathematical explanation of why aggregated data can reverse conclusions.
+
+---
+
+## simulation-studies
+
+**`wealth_distribution_pareto.ipynb`**  
+Agent-based simulation of 10,000 agents over 200 years starting from perfect equality (Gini=0). Includes labour income shocks, volatile capital returns, market crashes, individual catastrophic life events, and wealth-dependent spending calibrated to Scandinavian data. Animated histogram shows the distribution evolving from a spike to a heavy tail. Demonstrates that Pareto wealth distribution emerges from normal economic behaviour alone.
+
+**`martingale_classic_vs_modified.ipynb`**  
+1,000 simulated players per strategy on a fair coin. Classic Martingale (always bet the same side) vs Modified Martingale (bet the side that would correct the running average toward 0.5). Real parameters: €0.10 minimum bet, €1,000 bankroll. Shows both strategies produce identical bankruptcy rates — the Gambler's Fallacy in action.
 
 ---
 
@@ -34,16 +61,6 @@ Inverse CDF sampling for the Breit-Wigner distribution. Probability Integral Tra
 
 **`sampling_distributions_bin_counts.ipynb`**  
 Generate 100 uniform random numbers, bin into 5 equal bins, repeat 10,000 times. Studies the distribution of a single bin count (Binomial vs Poisson vs Normal), compares variance predictions, and shows that bin counts are negatively correlated due to the fixed total constraint — with the theoretical Pearson correlation of −1/(N_bins−1) confirmed empirically.
-
----
-
-## simulation-studies
-
-**`martingale_classic_vs_modified.ipynb`**  
-1,000 simulated players per strategy on a fair coin. Classic Martingale (always bet the same side) vs Modified Martingale (bet the side that would correct the running average toward 0.5). Real parameters: €0.10 minimum bet, €1,000 bankroll. Shows both strategies produce identical bankruptcy rates — the running average carries no predictive information on a fair coin.
-
-**`wealth_distribution_pareto.ipynb`**  
-Agent-based simulation of 10,000 agents over 200 years starting from perfect equality (Gini=0). Includes labour income shocks, volatile capital returns, market crashes, individual catastrophic life events, and wealth-dependent spending calibrated to Scandinavian data. Shows Pareto wealth distribution and real-world Gini values emerging from normal economic behaviour alone.
 
 ---
 
